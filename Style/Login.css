@@ -1,0 +1,36 @@
+.body{
+    background-color: #81f88f;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: var(--back-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 120px;
+    height: 65px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.animationAndBackTOHome{
+    display: flex;
+    position: relative;
+}
+
+.animationAndBackTOHome .first-frame{
+    display: none;
+}
+
+.animationAndBackTOHome:hover .first-frame{
+    display: flex;
+    position: absolute;
+}

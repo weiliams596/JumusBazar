@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="kk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <!-- Logo and searcher -->
+        <div class="logo">
+            <a href="index.html"><img src="Asset/png/Logo.png" alt="логотип"></a>
+        </div>
+        <div class="searcher">
+            <input type="search" id="searcher_input" placeholder="іздеу">
+            <button title="Search" class="searcher_button"><img src="Asset/svg/search.svg" alt="іздеу"></button>
+        </div>
+        <!-- Login and register -->
+        <div class="login_signup">
+            <a href="login.html">кіру</a>
+            <a href="register.html">тіркелу</a>
+        </div>
+        <!-- Menu -->
+        <!-- If window size is less than 768px, show menu -->
+        <div class="menu">
+            <img src="Asset/svg/list.svg" alt="">
+            <div class="menu-list">
+                <a href="login.html">кіру</a>
+                <a href="register.html">тіркелу</a>
+            </div>
+        </div>
+    </header>
+    <!-- Main content -->
+    <main class="main">
+        <!-- Ads section -->
+        <section class="ads-section">
+            <video class="ads-frame" src="Asset/kingstom.mp4" title="YouTube video player" autoplay muted loop>
+            </video>
+            <div class="ads-content">
+                <h2>Жарнама бөлімі</h2>
+                <p>Бұл жарнама бөлімі.</p>
+            </div>
+        </section>
+        <!-- Content selections -->
+        <section class="content-selections">
+            <div class="type-cared">
+                <div class="type-card">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <p>1-түрі</p>
+                </div>
+                <div class="big-details">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <div class="type-content-div">
+                        <p>Бұл мәліметтер аймағы.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="type-cared">
+                <div class="type-card">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <p>1-түрі</p>
+                </div>
+                <div class="big-details">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <div class="type-content-div">
+                        <p>Бұл мәліметтер аймағы.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="type-cared">
+                <div class="type-card">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <p>1-түрі</p>
+                </div>
+                <div class="big-details">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <div class="type-content-div">
+                        <p>Бұл мәліметтер аймағы.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="type-cared">
+                <div class="type-card">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <p>1-түрі</p>
+                </div>
+                <div class="big-details">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <div class="type-content-div">
+                        <p>Бұл мәліметтер аймағы.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="type-cared">
+                <div class="type-card">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <p>1-түрі</p>
+                </div>
+                <div class="big-details">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <div class="type-content-div">
+                        <p>Бұл мәліметтер аймағы.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="type-cared">
+                <div class="type-card">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <p>1-түрі</p>
+                </div>
+                <div class="big-details">
+                    <img src="Asset/png/computer.png" alt="job-type">
+                    <div class="type-content-div">
+                        <p>Бұл мәліметтер аймағы.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- All jobs -->
+         <!-- It is all job list -->
+        <section class="all-jobs">
+            <div class="job-card">
+                <a href="job_details.html">
+                    <div class="job-detail-card">
+                        <img src="Asset/png/worker.png" alt="jobs">
+                        <h3>Жұмыс атауы</h3>
+                        <div class="button-div">
+                            <img src="Asset/svg/star-fill.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="back-job-detail-card">
+                        <img src="Asset/png/worker.png" alt="">
+                        <h3>Жұмыс атауы</h3>
+                        <p>Жұмыс сипаттамасы</p>
+                        <p>Жұмыс бағасы: <span id="price">$100</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="job-card">
+                <a href="job_details.html">
+                    <div class="job-detail-card">
+                        <img src="Asset/png/worker.png" alt="jobs">
+                        <h3>Жұмыс атауы</h3>
+                        <div class="button-div">
+                            <img src="Asset/svg/star-fill.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="back-job-detail-card">
+                        <img src="Asset/png/worker.png" alt="">
+                        <h3>Жұмыс атауы</h3>
+                        <p>Жұмыс сипаттамасы</p>
+                        <p>Жұмыс бағасы: <span id="price">$100</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="job-card">
+                <a href="job_details.html">
+                    <div class="job-detail-card">
+                        <img src="Asset/png/worker.png" alt="jobs">
+                        <h3>Жұмыс атауы</h3>
+                        <div class="button-div">
+                            <img src="Asset/svg/star-fill.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="back-job-detail-card">
+                        <img src="Asset/png/worker.png" alt="">
+                        <h3>Жұмыс атауы</h3>
+                        <p>Жұмыс сипаттамасы</p>
+                        <p>Жұмыс бағасы: <span id="price">$100</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="job-card">
+                <a href="job_details.html">
+                    <div class="job-detail-card">
+                        <img src="Asset/png/worker.png" alt="jobs">
+                        <h3>Жұмыс атауы</h3>
+                        <div class="button-div">
+                            <img src="Asset/svg/star-fill.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="back-job-detail-card">
+                        <img src="Asset/png/worker.png" alt="">
+                        <h3>Жұмыс атауы</h3>
+                        <p>Жұмыс сипаттамасы</p>
+                        <p>Жұмыс бағасы: <span id="price">$100</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="job-card">
+                <a href="job_details.html">
+                    <div class="job-detail-card">
+                        <img src="Asset/png/worker.png" alt="jobs">
+                        <h3>Жұмыс атауы</h3>
+                        <div class="button-div">
+                            <img src="Asset/svg/star-fill.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="back-job-detail-card">
+                        <img src="Asset/png/worker.png" alt="">
+                        <h3>Жұмыс атауы</h3>
+                        <p>Жұмыс сипаттамасы</p>
+                        <p>Жұмыс бағасы: <span id="price">$100</span></p>
+                    </div>
+                </a>
+            </div>
+            <div class="job-card">
+                <a href="job_details.html">
+                    <div class="job-detail-card">
+                        <img src="Asset/png/worker.png" alt="jobs">
+                        <h3>Жұмыс атауы</h3>
+                        <div class="button-div">
+                            <img src="Asset/svg/star-fill.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="back-job-detail-card">
+                        <img src="Asset/png/worker.png" alt="">
+                        <h3>Жұмыс атауы</h3>
+                        <p>Жұмыс сипаттамасы</p>
+                        <p>Жұмыс бағасы: <span id="price">$100</span></p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>Авторлық құқық © 2024 Үлкен үй тапсырмасы</p>
+    </footer>
+</body>
+</html>

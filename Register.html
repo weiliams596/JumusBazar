@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/Register.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="Asset/png/Logo.png" alt="logo"></a>
+        </div>
+    </header>
+    <h1 class="title">Тіркелу</h1>
+    <form action="index.html">
+        <label for="name">Аты:</label>
+        <input type="text" id="name" name="name" pattern="[a-zA-Zа-яА-Я]{3,20}" required>
+        <label for="email">Электрондық пошта:</label>
+        <input type="email" id="email" name="email">
+        <label for="password">Құпия сөз:</label>
+        <input type="password" id="password" name="password" pattern="[a-zA-Z0-9@#$%^&+=]{8,22}" required>
+        <label for="confirm_password">Құпия сөзді растау:</label>
+        <input type="password" id="confirm_password" name="confirm_password" pattern="[a-zA-Z0-9@#$%^&+=]{8,22}"
+            required>
+        <label for="description">Сипаттама:</label>
+        <textarea id="description" name="description" rows="5"></textarea>
+        <label for="job_type">Жұмыс түрі:</label>
+        <select id="job_type" name="job_type">
+            <option value="1">Толық-уақыт</option>
+            <option value="2">Жартылай-уақыт</option>
+            <option value="3" selected>Келісімшарт</option>
+        </select>
+        <label for="job_title">Жұмыс атауы:</label>
+        <input type="text" id="job_title" name="job_title">
+        <label for="company_name">Компания атауы:</label>
+        <input type="text" id="company_name" name="company_name">
+        <label for="company_website">Компания веб-сайты:</label>
+        <input type="url" id="company_website" name="company_website">
+        <label for="company_email">Компанияның электрондық поштасы:</label>
+        <input type="email" id="company_email" name="company_email">
+        <label for="company_phone">Компанияның телефоны:</label>
+        <input type="tel" id="company_phone" name="company_phone">
+        <p>Сіздің идентификаторыңыз бар ма? <a href="Login.html">Кіру</a></p>
+        <button type="submit">Тіркелу</button>
+    </form>
+</body>
+
+</html>

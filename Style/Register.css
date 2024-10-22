@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #81f88f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: var(--back-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 120px;
+    height: 65px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: auto;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+
+form p{
+    margin-left: 20%;
+}
+
+input{
+    padding:0 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    font-size: 22px;
+}
+
+input:focus{
+    outline: none;
+}
+
+textarea{
+    width: 80%;
+    border-radius: 15px;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+select{
+    width: 80%;
+    border-radius: 15px;
+}
+
+select:focus{
+    outline: none;
+}
+
+button{
+    margin-top: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+button:hover{
+    transition: background-color 0.7s linear;
+    background-color: aqua;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    form{
+        animation: onScreenSmaller 0.5s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }    
+}
+
+@media screen and (min-width: 768px) {
+    form{
+        animation: onScreenBigger 0.5s ease-in-out;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }    
+}
+
+
+@keyframes onScreenSmaller{
+    from{
+    }
+    to{
+        width: 80%;
+    }
+}
+
+@keyframes onScreenBigger{
+    from{
+        width: 80%;
+    }
+    to{
+        width: 800px;
+    }
+}
