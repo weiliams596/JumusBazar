@@ -149,6 +149,8 @@ a:focus {
     display: flex;
     width: 80%;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bottomitems h3{
@@ -164,6 +166,13 @@ a:focus {
     border: 1px solid black;
     border-radius: 10px;
     padding: 2px 5px; 
+}
+
+.map{
+    padding-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 footer {
